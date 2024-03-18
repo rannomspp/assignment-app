@@ -21,9 +21,10 @@ import java.util.stream.Collectors;
 
 @Service
 public class SectorFieldsService {
-    private static final Logger logger = LoggerFactory.getLogger(SectorFieldsService.class);
-    private final SectorFieldsRepository sectorFieldsRepository;
 
+    private static final Logger logger = LoggerFactory.getLogger(SectorFieldsService.class);
+
+    private final SectorFieldsRepository sectorFieldsRepository;
     private final SectorsRepository sectorsRepository;
 
     @Autowired

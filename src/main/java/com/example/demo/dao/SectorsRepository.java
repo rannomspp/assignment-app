@@ -12,4 +12,5 @@ public interface SectorsRepository extends JpaRepository<Sectors, Long> {
 
     @Query(value = "SELECT e FROM Sectors e WHERE e.id = (SELECT MAX(e2.id) FROM Sectors e2)")
     Optional<Sectors> findLastEntityById();
+
 }

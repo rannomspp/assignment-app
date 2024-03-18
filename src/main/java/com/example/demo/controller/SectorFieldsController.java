@@ -15,7 +15,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/sectors")
 public class SectorFieldsController {
+
     private static final Logger logger = LoggerFactory.getLogger(SectorFieldsController.class);
+
     @Autowired
     SectorFieldsService sectorFieldsService;
 

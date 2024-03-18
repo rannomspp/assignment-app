@@ -1,6 +1,5 @@
 package com.example.demo.model;
 
-import com.example.demo.dto.SectorFieldRow;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.hypersistence.utils.hibernate.type.json.JsonBinaryType;
 import jakarta.persistence.*;
