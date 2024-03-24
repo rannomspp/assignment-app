@@ -1,6 +1,6 @@
 # README
 
-**Assignment-app (backend) moodul peab jooksma, et assignment-frontend moodulit kasutada.**
+**Assignment-app (backend) moodul peab jooksma, et [assignment-frontend](https://github.com/rannomspp/assignment-frontend) moodulit kasutada.**
 
 Esialgne sektorite info võetakse 'sectorfields' tabelist.
 
